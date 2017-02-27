@@ -7,12 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7040B41E6464DB00E59DC1 /* JumpingFrogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7040B31E6464DB00E59DC1 /* JumpingFrogs.swift */; };
+		4B7040B51E6464E700E59DC1 /* SearchTreeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7040B01E6464C000E59DC1 /* SearchTreeKit.framework */; };
 		4BE270521E6463F600CD4BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE270511E6463F600CD4BFC /* AppDelegate.swift */; };
 		4BE270541E6463F600CD4BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE270531E6463F600CD4BFC /* Assets.xcassets */; };
 		4BE270571E6463F600CD4BFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE270551E6463F600CD4BFC /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4B7040AB1E6464C000E59DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6064DE1E1A106C00172FA6;
+			remoteInfo = SearchTreeKit;
+		};
+		4B7040AD1E6464C000E59DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6064E71E1A106C00172FA6;
+			remoteInfo = SearchTreeKitTests;
+		};
+		4B7040AF1E6464C000E59DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6064FD1E1A109000172FA6;
+			remoteInfo = "SearchTreeKit iOS";
+		};
+		4B7040B11E6464C000E59DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6065051E1A109000172FA6;
+			remoteInfo = "SearchTreeKit iOSTests";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SearchTreeKit.xcodeproj; path = SearchTreeKit/SearchTreeKit.xcodeproj; sourceTree = "<group>"; };
+		4B7040B31E6464DB00E59DC1 /* JumpingFrogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpingFrogs.swift; sourceTree = "<group>"; };
 		4BE2704E1E6463F600CD4BFC /* Jumping Frogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jumping Frogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE270511E6463F600CD4BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BE270531E6463F600CD4BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,15 +60,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7040B51E6464E700E59DC1 /* SearchTreeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7040A51E6464C000E59DC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B7040AC1E6464C000E59DC1 /* SearchTreeKit.framework */,
+				4B7040AE1E6464C000E59DC1 /* SearchTreeKitTests.xctest */,
+				4B7040B01E6464C000E59DC1 /* SearchTreeKit.framework */,
+				4B7040B21E6464C000E59DC1 /* SearchTreeKit iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4BE270451E6463F600CD4BFC = {
 			isa = PBXGroup;
 			children = (
+				4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */,
 				4BE270501E6463F600CD4BFC /* Jumping Frogs */,
 				4BE2704F1E6463F600CD4BFC /* Products */,
 			);
@@ -54,6 +102,7 @@
 				4BE270531E6463F600CD4BFC /* Assets.xcassets */,
 				4BE270551E6463F600CD4BFC /* MainMenu.xib */,
 				4BE270581E6463F600CD4BFC /* Info.plist */,
+				4B7040B31E6464DB00E59DC1 /* JumpingFrogs.swift */,
 			);
 			path = "Jumping Frogs";
 			sourceTree = "<group>";
@@ -106,12 +155,49 @@
 			mainGroup = 4BE270451E6463F600CD4BFC;
 			productRefGroup = 4BE2704F1E6463F600CD4BFC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4B7040A51E6464C000E59DC1 /* Products */;
+					ProjectRef = 4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4BE2704D1E6463F600CD4BFC /* Jumping Frogs */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4B7040AC1E6464C000E59DC1 /* SearchTreeKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SearchTreeKit.framework;
+			remoteRef = 4B7040AB1E6464C000E59DC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B7040AE1E6464C000E59DC1 /* SearchTreeKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SearchTreeKitTests.xctest;
+			remoteRef = 4B7040AD1E6464C000E59DC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B7040B01E6464C000E59DC1 /* SearchTreeKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SearchTreeKit.framework;
+			remoteRef = 4B7040AF1E6464C000E59DC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B7040B21E6464C000E59DC1 /* SearchTreeKit iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SearchTreeKit iOSTests.xctest";
+			remoteRef = 4B7040B11E6464C000E59DC1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4BE2704C1E6463F600CD4BFC /* Resources */ = {
@@ -130,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7040B41E6464DB00E59DC1 /* JumpingFrogs.swift in Sources */,
 				4BE270521E6463F600CD4BFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +372,7 @@
 				4BE2705D1E6463F600CD4BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
