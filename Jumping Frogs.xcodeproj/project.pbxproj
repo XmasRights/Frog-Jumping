@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		4B7040B41E6464DB00E59DC1 /* JumpingFrogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7040B31E6464DB00E59DC1 /* JumpingFrogs.swift */; };
 		4B7040B51E6464E700E59DC1 /* SearchTreeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7040B01E6464C000E59DC1 /* SearchTreeKit.framework */; };
+		4B7040B91E64656000E59DC1 /* Lilypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7040B81E64656000E59DC1 /* Lilypad.swift */; };
+		4B7040BB1E64659400E59DC1 /* Frog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7040BA1E64659400E59DC1 /* Frog.swift */; };
+		4B7040BD1E64682200E59DC1 /* String_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7040BC1E64682200E59DC1 /* String_Extension.swift */; };
+		4B7040BF1E6469C200E59DC1 /* Pond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7040BE1E6469C200E59DC1 /* Pond.swift */; };
 		4BE270521E6463F600CD4BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE270511E6463F600CD4BFC /* AppDelegate.swift */; };
 		4BE270541E6463F600CD4BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE270531E6463F600CD4BFC /* Assets.xcassets */; };
 		4BE270571E6463F600CD4BFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE270551E6463F600CD4BFC /* MainMenu.xib */; };
@@ -48,6 +52,10 @@
 /* Begin PBXFileReference section */
 		4B7040A41E6464C000E59DC1 /* SearchTreeKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SearchTreeKit.xcodeproj; path = SearchTreeKit/SearchTreeKit.xcodeproj; sourceTree = "<group>"; };
 		4B7040B31E6464DB00E59DC1 /* JumpingFrogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpingFrogs.swift; sourceTree = "<group>"; };
+		4B7040B81E64656000E59DC1 /* Lilypad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lilypad.swift; sourceTree = "<group>"; };
+		4B7040BA1E64659400E59DC1 /* Frog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frog.swift; sourceTree = "<group>"; };
+		4B7040BC1E64682200E59DC1 /* String_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String_Extension.swift; sourceTree = "<group>"; };
+		4B7040BE1E6469C200E59DC1 /* Pond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pond.swift; sourceTree = "<group>"; };
 		4BE2704E1E6463F600CD4BFC /* Jumping Frogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jumping Frogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE270511E6463F600CD4BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BE270531E6463F600CD4BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				4BE270551E6463F600CD4BFC /* MainMenu.xib */,
 				4BE270581E6463F600CD4BFC /* Info.plist */,
 				4B7040B31E6464DB00E59DC1 /* JumpingFrogs.swift */,
+				4B7040B81E64656000E59DC1 /* Lilypad.swift */,
+				4B7040BA1E64659400E59DC1 /* Frog.swift */,
+				4B7040BE1E6469C200E59DC1 /* Pond.swift */,
+				4B7040BC1E64682200E59DC1 /* String_Extension.swift */,
 			);
 			path = "Jumping Frogs";
 			sourceTree = "<group>";
@@ -216,8 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7040BF1E6469C200E59DC1 /* Pond.swift in Sources */,
 				4B7040B41E6464DB00E59DC1 /* JumpingFrogs.swift in Sources */,
+				4B7040B91E64656000E59DC1 /* Lilypad.swift in Sources */,
 				4BE270521E6463F600CD4BFC /* AppDelegate.swift in Sources */,
+				4B7040BB1E64659400E59DC1 /* Frog.swift in Sources */,
+				4B7040BD1E64682200E59DC1 /* String_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
